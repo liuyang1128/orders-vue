@@ -30,7 +30,7 @@
         <van-swipe-item><img height="120px" width="375px" src="@/assets/icon/ok-ad4.png"/></van-swipe-item>
       </van-swipe>
       <van-notice-bar
-        text="号外号外！！！OK帮服务现在免费向大众开放了！！！快来注册吧！！！"
+        text="号外号外！！！本厂商品可以网上定制了！！欢迎网上订购！！！"
         left-icon="https://img.yzcdn.cn/public_files/2017/8/10/6af5b7168eed548100d9041f07b7c616.png"
       />
   </div>

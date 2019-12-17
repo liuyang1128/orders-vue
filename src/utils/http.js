@@ -37,10 +37,12 @@ export default(method = 'GET', url = '', data = {}) => {
 
 //创建自定义axios对象
   let ajax = axios.create();
+  var root = process.env.API_ROOT;
 
 // http request 拦截器
   ajax.interceptors.request.use(
     config => {
+      config.url = root + config.url;
       if (method == "GET") {
         config.params = data;
         config.data = "";

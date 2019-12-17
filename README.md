@@ -1,4 +1,4 @@
-# okhelper-web
+# orders-vue
 
 > A Vue.js project
 
@@ -28,9 +28,8 @@ npm test
 ```
 
 
-#### 1. okhelper.apk 为已经打包好的app 可下载测试
-服务器上的后端服务已经下线,可自行代理到自己的后端服务地址 http://139.199.30.155/api  ----> http://127.0.0.1:8080/ 
+#### 1. orders.apk 为已经打包好的app 可下载测试
 
 #### 2. 若dev运行，则修改/config/index.js 的 proxyTable 改成你的后端地址 
 
-#### 3. 此项目为纯前端项目，后端请转至：https://github.com/okhelperTeam/okhelper-service
+#### 3. 此项目为纯前端项目，后端请转至：https://github.com/liuyang1128/order-manager.git

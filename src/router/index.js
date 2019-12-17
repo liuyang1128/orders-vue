@@ -62,191 +62,191 @@ const routes = [
   },{
     path: '/user/login',
     component: Login,
-    meta: {title: "okhelper-login"}
+    meta: {title: "orders-login"}
   },{
     path: '/user/register',
     component: Register,
-    meta: {title: "okhelper-register"}
+    meta: {title: "orders-register"}
   },{
     path: '/user/person',
     component: Person,
-    meta: {title: "okhelper-person"}
+    meta: {title: "orders-person"}
   },{
     path:'/home',
     component:Home,
-    meta:{title:"okhelper-Home"}
+    meta:{title:"orders-Home"}
   },{
     path:'/shop',
     component:Shop,
-    meta:{title:"okhelper-Shop"}
+    meta:{title:"orders-Shop"}
   },{
     path:'/employee',
     component:Employee,
-    meta:{title:"okhelper-Employee"}
+    meta:{title:"orders-Employee"}
   },{
     path:'/employee/employeeInfo',
     component:EmployeeInfo,
-    meta:{title:"okhelper-EmployeeInfo"}
+    meta:{title:"orders-EmployeeInfo"}
   },{
     path:'/role',
     component:Role,
-    meta:{title:"okhelper-Role"}
+    meta:{title:"orders-Role"}
   },{
     path:'/role/roleInfo',
     component:RoleInfo,
-    meta:{title:"okhelper-RoleInfo"}
+    meta:{title:"orders-RoleInfo"}
   },{
     path:'/categoryInfo',
     component:CategoryInfo,
-    meta:{title:"okhelper-categoryInfo"}
+    meta:{title:"orders-categoryInfo"}
   },{
     path:'/product',
     component:Product,
-    meta:{title:"okhelper-Product"}
+    meta:{title:"orders-Product"}
   },{
     path:'/product/searchProduct',
     component:SearchProduct,
-    meta:{title:"okhelper-searchProduct"}
+    meta:{title:"orders-searchProduct"}
   },{
     path:'/product/productInfo',
     component:ProductInfo,
-    meta:{title:"okhelper-ProductInfo",keepAlive:true}
+    meta:{title:"orders-ProductInfo",keepAlive:true}
   },{
     path:'/checkstand',
     component:Checkstand,
-    meta:{title:"okhelper-Checkstand"}
+    meta:{title:"orders-Checkstand"}
   },{
     path:'/sell',
     component:Sell,
-    meta:{title:"okhelper-Sell"}
+    meta:{title:"orders-Sell"}
   },{
     path:'/sell/sellHistory',
     component:SellHistory,
-    meta:{title:"okhelper-SellHistory"}
+    meta:{title:"orders-SellHistory"}
   },{
     path:'/sell/sellTable',
     component:SellTable,
-    meta:{title:"okhelper-SellTable",keepAlive:true}
+    meta:{title:"orders-SellTable",keepAlive:true}
   },{
     path:'/repertory',
     component:Repertory,
-    meta:{title:"okhelper-Repertory"}
+    meta:{title:"orders-Repertory"}
   },{
     path:'/statistics',
     component:Statistics,
-    meta:{title:"okhelper-Statistics"}
+    meta:{title:"orders-Statistics"}
   },{
     path:'/statistics/hotSell',
     component:HotSell,
-    meta:{title:"okhelper-HotSell"}
+    meta:{title:"orders-HotSell"}
   },{
     path:'/statistics/client',
     component:ClientReconciliation,
-    meta:{title:"okhelper-ClientReconciliation"}
+    meta:{title:"orders-ClientReconciliation"}
   },{
     path:'/statistics/supplier',
     component:SupplierReconciliation,
-    meta:{title:"okhelper-SupplierReconciliation"}
+    meta:{title:"orders-SupplierReconciliation"}
   },{
     path:'/statistics/sellDetails',
     component:SellDetails,
-    meta:{title:"okhelper-SellDetails"}
+    meta:{title:"orders-SellDetails"}
   },{
     path:'/header',
     component:Header,
-    meta:{title:"okhelper-Header"}
+    meta:{title:"orders-Header"}
   },{
     path:'/footer',
     component:Footer,
-    meta:{title:"okhelper-footer"}
+    meta:{title:"orders-footer"}
   },{
     path:'/back',
     component:BackBar,
-    meta:{title:"okhelper-backBar"}
+    meta:{title:"orders-backBar"}
   },{
     path:'/user/customer',
     component:Customer,
-    meta:{title:"okhelper-Customer"}
+    meta:{title:"orders-Customer"}
   },{
     path:'/user/customerInfo',
     component:CustomerInfo,
-    meta:{title:"okhelper-CustomerInfo"}
+    meta:{title:"orders-CustomerInfo"}
   },{
     path:'/user/addCustomer',
     component:AddCustomer,
-    meta:{title:"okhelper-AddCustomer"}
+    meta:{title:"orders-AddCustomer"}
   },{
     path:'/user/customerTradeHistory',
     component:CustomerTradeHistory,
-    meta:{title:"okhelper-CustomerTradeHistory"}
+    meta:{title:"orders-CustomerTradeHistory"}
   },{
     path:'/user/supplier',
     component:Supplier,
-    meta:{title:"okhelper-Supplier"}
+    meta:{title:"orders-Supplier"}
   },{
     path:'/user/supplierOrder',
     component:SupplierOrder,
-    meta:{title:"okhelper-SupplierOrder"}
+    meta:{title:"orders-SupplierOrder"}
   },{
     path:'/user/storeManagerInfo',
     component:StoreManagerInfo,
-    meta:{title:"okhelper-StoreManagerInfo"}
+    meta:{title:"orders-StoreManagerInfo"}
   },{
     path:'/user/changeUserPhoto',
     component:ChangeUserPhoto,
-    meta:{title:"okhelper-ChangeUserPhoto"}
+    meta:{title:"orders-ChangeUserPhoto"}
   },{
     path:'/user/addSupplier',
     component:AddSupplier,
-    meta:{title:"okhelper-AddSupplier"}
+    meta:{title:"orders-AddSupplier"}
   },{
     path:'/user/supplierInfo',
     component:SupplierInfo,
-    meta:{title:"okhelper-SupplierInfo"}
+    meta:{title:"orders-SupplierInfo"}
   },{
     path:'/warehouse/warehouse',
     component:Warehouse,
-    meta:{title:"okhelper-Warehouse"}
+    meta:{title:"orders-Warehouse"}
   },{
     path:'/warehouse/searchStockProduct',
     component:SearchStockProduct,
-    meta:{title:"okhelper-SearchStockProduct"}
+    meta:{title:"orders-SearchStockProduct"}
   },{
     path:'/warehouse/warehouseInfo',
     component:WarehouseInfo,
-    meta:{title:"okhelper-WarehouseInfo"}
+    meta:{title:"orders-WarehouseInfo"}
   },{
     path:'/warehouse/addWarehouse',
     component:AddWarehouse,
-    meta:{title:"okhelper-AddWarehouse"}
+    meta:{title:"orders-AddWarehouse"}
   },{
     path:'/warehouse/stock',
     component:Stock,
-    meta:{title:"okhelper-Stock"}
+    meta:{title:"orders-Stock"}
   },{
     path:'/warehouse/outbound',
     component:Outbound,
-    meta:{title:"okhelper-Outbound"}
+    meta:{title:"orders-Outbound"}
   },{
     path:'/warehouse/stockWarning',
     component:StockWarning,
-    meta:{title:"okhelper-stockWarning"}
+    meta:{title:"orders-stockWarning"}
   },{
     path:'/warehouse/earlyWarning',
     component:EarlyWarning,
-    meta:{title:"okhelper-earlyWarning"}
+    meta:{title:"orders-earlyWarning"}
   },{
     path:'/warehouse/purchaseHistory',
     component:PurchaseHistory,
-    meta:{title:"okhelper-purchaseHistory"}
+    meta:{title:"orders-purchaseHistory"}
   },{
     path:'/warehouse/purchaseOrder',
     component:PurchaseOrder,
-    meta:{title:"okhelper-purchaseOrder",keepAlive:true}
+    meta:{title:"orders-purchaseOrder",keepAlive:true}
 },{
     path:'/warehouse/purchaseInfo',
     component:PurchaseInfo,
-    meta:{title:"okhelper-purchaseInfo"}
+    meta:{title:"orders-purchaseInfo"}
   },{
     path:'/category/addCategory',
     component:ADDCategory
